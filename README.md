@@ -20,6 +20,9 @@
 
 ## 프로젝트 구성
 
+### DB 테이블 구조
+![Image](https://github.com/user-attachments/assets/77ee43ff-44e6-4933-b0a7-394110bc18be)
+
 ## 프로젝트 개발환경
 - Python 3.12.7
 - DBMS: PostgreSQL
