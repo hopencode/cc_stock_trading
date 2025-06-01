@@ -28,3 +28,19 @@
 - DBMS: PostgreSQL
 - Node.JS v22.16.0
 - npm 10.9.2
+
+## 백엔드 설치 라이브러리
+```
+pip install "FastAPI[standard]"
+pip install sqlalchemy
+pip install python-jose[cryptography]
+pip install passlib[bcrypt]
+pip install pydantic
+pip install pydantic-settings
+pip install psycopg2-binary
+```
+
+## 프론트 설치 라이브러리
+```
+npm install react-scripts --save
+```
