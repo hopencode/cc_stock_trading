@@ -26,3 +26,5 @@
 ## 프로젝트 개발환경
 - Python 3.12.7
 - DBMS: PostgreSQL
+- Node.JS v22.16.0
+- npm 10.9.2
