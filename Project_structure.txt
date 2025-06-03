@@ -1,0 +1,23 @@
+project-root/
+├── app/                       # 백엔드(FastAPI)
+│   ├── main.py
+│   ├── core/
+│   ├── models/
+│   ├── schemas/
+│   ├── repositories/
+│   ├── services/
+│   ├── api/
+│   ├── dependencies.py
+│   └── requirements.txt
+├── frontend/                  # 프론트엔드(React)
+│   ├── public/
+│   │   └── index.html
+│   └── src/
+│       ├── api/
+│       ├── auth/
+│       ├── customer/
+│       ├── admin/
+│       ├── company/
+│       ├── App.jsx
+│       └── index.js
+└── README.md
