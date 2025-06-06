@@ -137,25 +137,4 @@ REVOKE INSERT, DELETE ON TABLE company FROM mts_customer, mts_company;
 GRANT ALL ON SCHEMA public TO mts_admin;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+insert into admin values ('admin1', 'admin123', 'admin');
