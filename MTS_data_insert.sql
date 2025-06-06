@@ -5,7 +5,6 @@ delete from buy_list;
 delete from order_list;
 delete from financial_info;
 delete from company;
-delete from admin;
 delete from account;
 
 
