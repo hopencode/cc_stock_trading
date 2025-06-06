@@ -17,10 +17,6 @@ insert into account values ('Microsoft1', 'Microsoft123', '12341237', 'company',
 insert into account values ('Ford1', 'Ford123', '12341238', 'company', 'Ford', '010-1234-1238', 10000, 0);
 insert into account values ('PG1', 'PG123', '12341239', 'company', 'Pg', '010-1234-1239', 10000, 0);
 
-
-insert into admin values ('admin1', 'admin123', 'admin');
-
-
 insert into company values ('Microsoft', 500000, 7000, 3500000000, 'IT');
 insert into company values ('Amazon', 400000, 6000, 2400000000, 'IT');
 insert into company values ('Ford', 100000, 2000, 200000000, 'consumer discretionary');
