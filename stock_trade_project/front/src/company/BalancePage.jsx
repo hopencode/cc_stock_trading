@@ -19,7 +19,7 @@ function BalancePage() {
         <div className="flex justify-between items-center">
           <h2 className="text-2xl font-bold">🏦 기업 잔고 조회</h2>
           <button
-            onClick={() => navigate("/customer/home")}
+            onClick={() => navigate("/company/home")}
             className="p-2 rounded hover:bg-gray-100 transition"
             title="홈으로"
           >
