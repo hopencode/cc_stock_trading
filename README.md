@@ -61,7 +61,7 @@
 ## 프로젝트 사용 방법
 ### 프로젝트 개발환경
 - Python 3.12.7
-- DBMS: PostgreSQL
+- DBMS: PostgreSQL 15.10
 - Node.JS v22.16.0
 - npm 10.9.2
 
