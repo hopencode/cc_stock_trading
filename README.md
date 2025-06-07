@@ -53,6 +53,26 @@
 ### 프로젝트 개발 결과
 [POSTMAN API 명세서](https://documenter.getpostman.com/view/11352518/2sB2x3msei) <br>
 
+회원가입 및 로그인 기능
+![Image](https://github.com/user-attachments/assets/7099147b-456b-4f13-8eef-ff30ed4ac3a0)
+
+증권사 직원 기능
+![Image](https://github.com/user-attachments/assets/1f1c0d12-f987-445c-a653-f6e34e476f5e)
+
+고객 계정 공통 기능
+![Image](https://github.com/user-attachments/assets/30db3ce5-a218-4922-9464-38af787a334c)
+
+고객 계정 공통 주식 거래 기능
+![Image](https://github.com/user-attachments/assets/dad33270-4691-4491-91f7-a3813e8bf210)
+
+고객 계정 공통 주문 조회 및 취소 기능
+![Image](https://github.com/user-attachments/assets/fa9ce8bb-2867-4e28-b2e0-08ee6721ef82)
+
+일반 고객 전용 기능
+![Image](https://github.com/user-attachments/assets/2ba8a412-62e7-4dcc-95fd-4d327a8efd09)
+
+기업 고객 전용 기능
+![Image](https://github.com/user-attachments/assets/93c0be48-20fd-4128-aad9-606bcba5f7cd)
 
 ### DB 테이블 구조
 - account: 개인 및 기업 고객 계정 테이블 (id, password, 계좌번호, 계좌유형, 이름, 연락처, 보유현금, 누적 양도소득)
