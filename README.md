@@ -35,7 +35,7 @@
 - AWS Lightsail: 클라우드 서버 배포 및 운영
 
 ## 프로젝트 개발 결과물 (+ 다이어그램)
-[POSTMAN API 명세서]([URL](https://documenter.getpostman.com/view/11352518/2sB2x3msei))
+[POSTMAN API 명세서](https://documenter.getpostman.com/view/11352518/2sB2x3msei)
 본 프로젝트는 백엔드 API 서버, 프론트엔드 인터페이스, PostgreSQL 데이터베이스로 구성됩니다.
 
 ### 시스템 구성도
