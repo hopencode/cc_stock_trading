@@ -34,18 +34,24 @@
 - JWT (JSON Web Token): 사용자 인증 및 세션 유지 기술
 - AWS Lightsail: 클라우드 서버 배포 및 운영
 
+### 관련 논문
+(채울 예정)
+
 ## 프로젝트 개발 결과물 (+ 다이어그램)
-[POSTMAN API 명세서](https://documenter.getpostman.com/view/11352518/2sB2x3msei) <br>
 본 프로젝트는 백엔드 API 서버, 프론트엔드 인터페이스, PostgreSQL 데이터베이스로 구성됩니다.
 
 ### 시스템 구성도
 ```
 [사용자]
    ↓
-[React 기반 프론트엔드]
+[React 기반 프론트엔드 (AWS Lightsail)]
    ↓ REST API 호출
-[FastAPI 백엔드 서버] ←→ [PostgreSQL DB]
+[FastAPI 백엔드 서버 (AWS Lightsail)] ←→ [PostgreSQL DB (AWS Lightsail)]
 ```
+
+### 프로젝트 개발 결과
+[POSTMAN API 명세서](https://documenter.getpostman.com/view/11352518/2sB2x3msei) <br>
+
 
 ### DB 테이블 구조
 - account: 개인 및 기업 고객 계정 테이블 (id, password, 계좌번호, 계좌유형, 이름, 연락처, 보유현금, 누적 양도소득)
@@ -58,6 +64,9 @@
 - customer_balance: 개인(일반)고객 계정의 보유 주식 잔고 테이블 (계좌번호, 기업이름, 주식 보유 개수, 평균 매수 단가)
 - company_balance: 기업고객 계정의 보유 주식 잔고 테이블 (계좌번호, 기업이름, 주식 보유 개수, 평균 매수 단가)
 <img src="https://github.com/user-attachments/assets/3582505a-05cb-4a81-b91f-1a1b8946a0db" width=600, height=400>
+
+
+
 
 ## 프로젝트 사용 방법
 ### 프로젝트 개발환경
@@ -82,12 +91,24 @@ pip install psycopg2-binary
 npm install react-scripts --save
 npm install @heroicons/react
 
-// front 디렉토리로 이동 후
+// front 디렉토리에서
 npm install
 ```
 
+### 로컬 환경에서 프로젝트 동작
+
+```
+// 백엔드 코드
+// 프로젝트 root 폴더에서
+uvicorn app.main:app --reload
+
+// 프론트엔드 코드
+// front 디렉토리에서
+npm start
+```
+
 ### AWS Lightsail 배포 과정
-- ㅇ
+- (채울 예정)
 
 ## 프로젝트 활용 방안
 증권사 API 연결을 통해 시스템 기능을 확장하여 아래와 같이 사용할 수 있습니다.
