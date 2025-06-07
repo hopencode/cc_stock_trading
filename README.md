@@ -56,7 +56,7 @@
 - sell_list: 매도 내역 테이블 (매도주문 체결번호, 계좌번호, 기업이름, 판매한 주식의 주당 매수했던 가격, 주당 매도 가격, 주문체결 날짜, 주문체결 시간, 매도 체결 개수)
 - customer_balance: 개인(일반)고객 계정의 보유 주식 잔고 테이블 (계좌번호, 기업이름, 주식 보유 개수, 평균 매수 단가)
 - company_balance: 기업고객 계정의 보유 주식 잔고 테이블 (계좌번호, 기업이름, 주식 보유 개수, 평균 매수 단가)
-<img src="https://github.com/user-attachments/assets/3582505a-05cb-4a81-b91f-1a1b8946a0db" width=400, height=400>
+<img src="https://github.com/user-attachments/assets/3582505a-05cb-4a81-b91f-1a1b8946a0db" width=600, height=400>
 
 ## 프로젝트 사용 방법
 ### 프로젝트 개발환경
