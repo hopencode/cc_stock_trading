@@ -81,7 +81,7 @@ pip install psycopg2-binary
 npm install react-scripts --save
 npm install @heroicons/react
 
-// front 디렉토리로 이동
+// front 디렉토리로 이동 후
 npm install
 ```
 
