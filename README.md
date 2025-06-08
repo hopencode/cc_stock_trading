@@ -73,6 +73,18 @@ ___
 [POSTMAN API 명세서](https://documenter.getpostman.com/view/11352518/2sB2x3msei) <br>
 
 <figure style="text-align: center;">
+<img src="https://github.com/user-attachments/assets/97dc3a50-0087-45aa-8f85-03bf559ce1a1" width=1000, height=600>
+<figcaption>다이어그램 1. 회원가입 및 로그인 기능</figcaption>  
+</figure>
+<br>
+
+<figure style="text-align: center;">
+<img src="https://github.com/user-attachments/assets/29112ebe-7f56-4311-8475-ba55163b72e2" width=1000, height=600>
+<figcaption>다이어그램 2. 증권사 직원 기능</figcaption>  
+</figure>
+<br>
+
+<figure style="text-align: center;">
 <img src="https://github.com/user-attachments/assets/ce232044-99cf-4eb2-b8a3-6bad3279efae" width=1000, height=600>
 <figcaption>다이어그램 3. 고객 계정 공통 기능</figcaption>  
 </figure>
