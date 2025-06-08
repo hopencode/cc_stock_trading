@@ -135,6 +135,115 @@ ___
 - Node.JS v22.16.0
 - npm 10.9.2
 
+### 프로젝트 전체 구성
+```
+stock_trade_project/
+├── app/                       # 백엔드(FastAPI)
+│   ├── api/v1/endpoints
+│   ├── api/v1/api.py
+│   ├── core/
+│   ├── models/
+│   ├── repositories/
+│   ├── schemas/
+│   ├── services/
+│   ├── dependencies.py
+│   └── main.py
+├── front/                  	# 프론트엔드(React)
+      ├── public/
+      │   └── index.html
+      └── src/
+      │   ├── admin/
+      │   ├── api/
+      │   ├── auth/
+      │   ├── company/
+      │   ├── customer/
+      │   ├── App.jsx
+      │   └── index.js
+      └── package-lock.json
+      └── package.json
+      └── postcss.config.json
+      └── tailwind.config.json
+```
+
+### 프로젝트 프론트엔드 구성
+```
+src/
+├── api/
+│   └── api.js
+├── auth/
+│   ├── LoginPage.jsx
+│   └── RegisterPage.jsx
+├── customer/
+│   ├── CustomerHome.jsx
+│   ├── DepositWithdrawPage.jsx
+│   ├── CompanyListPage.jsx
+│   ├── CompanyFinancePage.jsx
+│   ├── OrderbookAndOrderPage.jsx
+│   ├── OrderListPage
+│   ├── BalancePage.jsx
+│   └── PortfolioWeightPage.jsx
+├── admin/
+│   ├── AdminHome.jsx
+│   ├── RegisterCompanyPage.jsx
+│   ├── UpdateSectorPage.jsx
+│   └── DeleteCompanyPage.jsx
+├── company/
+│   ├── CompanyHome.jsx
+│   ├── DepositWithdrawPage.jsx
+│   ├── CompanyListPage.jsx
+│   ├── CompanyFinancePage.jsx
+│   ├── OrderbookAndOrderPage.jsx
+│   ├── OrderListPage.jsx
+│   ├── BalancePage.jsx
+│   └── CompanyFinancialInfoPage.jsx
+├── App.jsx
+├── index.css
+└── index.js
+```
+
+### 프로젝트 백엔드 구성
+```
+app/
+├── main.py                    # FastAPI 애플리케이션 엔트리포인트
+├── core/
+│   ├── __init__.py
+│   ├── config.py             # 환경 설정 및 데이터베이스 연결 정보
+│   ├── security.py           # JWT 토큰 인증 및 보안
+│   └── database.py           # SQLAlchemy 엔진 및 세션 관리
+├── models/                   # SQLAlchemy 모델 (Entity)
+│   ├── __init__.py
+│   ├── account.py
+│   ├── company.py
+│   ├── order.py
+│   └── transaction.py
+├── schemas/                  # Pydantic 스키마
+│   ├── __init__.py
+│   ├── account.py
+│   ├── company.py
+│   └── order.py
+├── repositories/             	# 데이터 액세스 계층
+│   ├── __init__.py
+│   ├── account_repository.py
+│   ├── company_repository.py
+│   └── order_repository.py
+├── services/                 	# 비즈니스 로직 계층
+│   ├── __init__.py
+│   ├── admin_service.py
+│   ├── customer_service.py
+│   └── company_service.py
+├── api/
+│   └── v1/
+│       ├── __init__.py
+│       ├── endpoints/
+│       │   ├── __init__.py
+│       │   ├── admin.py
+│       │   ├── customer.py
+│       │   ├── company.py
+│       │   └── auth.py
+│       └── api.py
+└── dependencies.py           # 의존성 주입 관리
+```
+
 ### 백엔드 설치 라이브러리
 ```
 pip install "FastAPI[standard]"
