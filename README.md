@@ -135,6 +135,7 @@ ___
 - DBMS: PostgreSQL 15.10
 - Node.JS v22.16.0
 - npm 10.9.2
+<br> <br>
 
 ### 프로젝트 전체 구성
 ```
@@ -165,6 +166,7 @@ stock_trade_project/
       └── postcss.config.json
       └── tailwind.config.json
 ```
+<br> <br>
 
 ### 프로젝트 프론트엔드 구성
 ```
@@ -201,6 +203,7 @@ src/
 ├── index.css
 └── index.js
 ```
+<br> <br>
 
 ### 프로젝트 백엔드 구성
 ```
@@ -244,6 +247,7 @@ app/
 │       └── api.py
 └── dependencies.py           # 의존성 주입 관리
 ```
+<br> <br>
 
 ### 백엔드 설치 라이브러리
 ```
@@ -255,6 +259,7 @@ pip install pydantic
 pip install pydantic-settings
 pip install psycopg2-binary
 ```
+<br> <br>
 
 ### 프론트 설치 패키지
 ```
@@ -264,6 +269,7 @@ npm install @heroicons/react
 // front 디렉토리에서
 npm install
 ```
+<br> <br>
 
 ### 로컬 환경에서 프로젝트 동작
 
@@ -276,6 +282,7 @@ uvicorn app.main:app --reload
 // front 디렉토리에서
 npm start
 ```
+<br> <br>
 
 ### AWS Lightsail 배포 과정
 본 프로젝트는 안정적이고 확장 가능한 서비스 제공을 위해 AWS Lightsail 클라우드 플랫폼을 활용하여 배포되었습니다. AWS Lightsail은 가상 사설 서버(VPS) 서비스로, 복잡한 클라우드 설정 없이도 웹 애플리케이션을 쉽게 배포할 수 있는 솔루션입니다.
