@@ -73,43 +73,31 @@ ___
 [POSTMAN API 명세서](https://documenter.getpostman.com/view/11352518/2sB2x3msei) <br>
 
 <figure style="text-align: center;">
-<img src="https://github.com/user-attachments/assets/7099147b-456b-4f13-8eef-ff30ed4ac3a0" width=1000, height=600>
-<figcaption>다이어그램 1. 회원가입 및 로그인 기능</figcaption> 
-</figure>
-<br>
-
-<figure style="text-align: center;">
-<img src="https://github.com/user-attachments/assets/1f1c0d12-f987-445c-a653-f6e34e476f5e" width=1000, height=600>
-<figcaption>다이어그램 2. 증권사 직원 기능</figcaption> 
-</figure>
-<br>
-
-<figure style="text-align: center;">
-<img src="https://github.com/user-attachments/assets/30db3ce5-a218-4922-9464-38af787a334c" width=1000, height=600>
+<img src="https://github.com/user-attachments/assets/ce232044-99cf-4eb2-b8a3-6bad3279efae" width=1000, height=600>
 <figcaption>다이어그램 3. 고객 계정 공통 기능</figcaption>  
 </figure>
 <br>
 
 <figure style="text-align: center;">
-<img src="https://github.com/user-attachments/assets/dad33270-4691-4491-91f7-a3813e8bf210" width=1000, height=600>
+<img src="https://github.com/user-attachments/assets/99a08d5a-ad58-4200-bbf0-f87c5623f250" width=1000, height=600>
 <figcaption>다이어그램 4. 고객 계정 공통 주식 거래 기능</figcaption> 
 </figure>
 <br>
 
 <figure style="text-align: center;">
-<img src="https://github.com/user-attachments/assets/fa9ce8bb-2867-4e28-b2e0-08ee6721ef82" width=1000, height=600>
+<img src="https://github.com/user-attachments/assets/bb0787e2-bd07-4838-9e60-8b7741fba15e" width=1000, height=600>
 <figcaption>다이어그램 5. 고객 계정 공통 주문 조회 및 취소 기능</figcaption>  
 </figure>
 <br>
 
 <figure style="text-align: center;">
-<img src="https://github.com/user-attachments/assets/2ba8a412-62e7-4dcc-95fd-4d327a8efd09" width=1000, height=600>
+<img src="https://github.com/user-attachments/assets/235be0fd-4b17-425f-a25d-67918bfeda24" width=1000, height=600>
 <figcaption>다이어그램 6. 일반 고객 전용 기능</figcaption>  
 </figure>
 <br>
 
 <figure style="text-align: center;"> 
-<img src="https://github.com/user-attachments/assets/93c0be48-20fd-4128-aad9-606bcba5f7cd" width=1000, height=600>
+<img src="https://github.com/user-attachments/assets/ac832af8-4bff-4eef-80d4-8f58c2f62f55" width=1000, height=600>
 <figcaption>다이어그램 7. 기업 고객 전용 기능</figcaption>  
 </figure>
 <br>
