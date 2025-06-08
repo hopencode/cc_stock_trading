@@ -294,7 +294,7 @@ npm start
 #### 1. AWS Lightsail 인스턴스 생성 및 초기 설정
 - Ubuntu 22.04 LTS 인스턴스 생성
 - SSH 키 페어 설정 및 보안 그룹 구성
-- 방화벽 설정으로 HTTP(80), HTTPS(443), SSH(22) 포트 개방
+- 방화벽 설정으로 HTTP(80), HTTPS(443), TCP(3000), TCP(8000) 포트 개방
 
 #### 2. 시스템 환경 구성
 - 시스템 패키지 업데이트 및 필수 도구 설치 (git, curl, nginx)
