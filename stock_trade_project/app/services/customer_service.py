@@ -349,7 +349,10 @@ class CustomerService:
         # 계정 타입에 따라 잔고 업데이트
         account = self.account_repo.get_by_account_number(a_number)
 
-        self.account_repo.update_customer_balance(a_number, company_name, count, price)
+        if account.type == "customer":
+            self.account_repo.update_customer_balance(a_number, company_name, count, price)
+        else:
+            self.account_repo.update_company_balance(a_number, company_name, count, price)
 
 
     def _process_sell_conclusion(self, a_number: int, company_name: str, price: int, count: int):
@@ -389,4 +392,7 @@ class CustomerService:
         # 보유 주식 차감
         account = self.account_repo.get_by_account_number(a_number)
 
-        self.account_repo.update_customer_balance(a_number, company_name, -count, 0, self.order_repo)
+        if account.type == "customer":
+            self.account_repo.update_customer_balance(a_number, company_name, -count, 0, self.order_repo)
+        else:
+            self.account_repo.update_company_balance(a_number, company_name, -count, 0, self.order_repo)
