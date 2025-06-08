@@ -2,12 +2,14 @@
 
 ## 프로젝트 명
 가상 주식 거래 플랫폼
+___
 <br> <br>
 
 ## 프로젝트 멤버 및 역할
 - 추민: 프론트 UI 구성 설계 및 디자인 구상, AWS Lightsail을 통해 프로젝트 배포
 - 최두환: 서비스 로그인 상태 유지 개발, 프론트 디자인 적용
 - 배근호: 프로젝트 기획, 주식 거래 서비스 백엔드 기능 개발
+___
 <br> <br>
 
 ## 프로젝트 소개
@@ -21,6 +23,7 @@
 - 기업고객: 재무정보 등록
 
 사용자는 가상의 자산으로 주식을 거래하며, 투자 전략과 포트폴리오 구성 연습을 통해 자산 관리 기술을 습득할 수 있습니다.
+___
 <br> <br>
 
 ## 프로젝트 필요성 소개
@@ -29,6 +32,7 @@
 주식 투자에서 발생할 수 있는 세금 문제 또한 중요한 학습 요소입니다. 특히, 주식 매매 차익에 대해 부과되는 양도소득세는 대부분의 증권사에서 사용하는 선입선출(FIFO, First-In-First-Out) 방식으로 계산됩니다. 이 방식에 따라 어떤 주식이 먼저 매도 처리되는지에 따라 세금이 달라질 수 있으며, 이를 제대로 이해하지 못하면 불필요한 세금이 발생할 수 있습니다. 본 프로젝트는 이를 반영하여, 사용자가 자신의 거래 내역을 기반으로 선입선출 방식으로 양도소득을 자동 계산하고 시뮬레이션할 수 있도록 구현함으로써 실전 투자에서 세금 전략까지 고려할 수 있도록 돕습니다. <br> <br>
 
 또한, 실제 주식 시장에서는 일시적인 이용자 폭주로 인해 플랫폼 접속이 지연되는 사례가 있었습니다. 예를 들어, 2021년 주식 시장에 대한 열기가 높았을 때 일부 증권사에서는 접속 지연 현상이 발생한 바 있습니다. 최근 새로 선출된 대통령이 코스피 5000을 목표로 제시하면서 다시 한번 대중의 주식 투자에 대한 관심이 높아질 수 있습니다. 이로 인해 플랫폼 접속자가 급격히 증가할 수 있으며, 이에 따라 유연하게 서버 용량을 확장할 수 있는 클라우드 기반 인프라가 필수적입니다. 따라서 본 프로젝트는 AWS Lightsail 클라우드 서비스를 통해 안정적으로 서비스를 제공합니다.
+___
 <br> <br>
 
 ## 관련 기술/논문/특허 조사 내용 소개
@@ -43,6 +47,7 @@
 
 ### 관련 논문
 (채울 예정)
+___
 <br> <br>
 
 ## 프로젝트 개발 결과물 (+ 다이어그램)
@@ -67,19 +72,19 @@
 <br>
 
 <figure style="text-align: center;">
-<img src="https://github.com/user-attachments/assets/1f1c0d12-f987-445c-a653-f6e34e476f5e" width=1000, height=650>
+<img src="https://github.com/user-attachments/assets/1f1c0d12-f987-445c-a653-f6e34e476f5e" width=1000, height=600>
 <figcaption>다이어그램 2. 증권사 직원 기능</figcaption> 
 </figure>
 <br>
 
 <figure style="text-align: center;">
-<img src="https://github.com/user-attachments/assets/30db3ce5-a218-4922-9464-38af787a334c" width=1000, height=650>
+<img src="https://github.com/user-attachments/assets/30db3ce5-a218-4922-9464-38af787a334c" width=1000, height=600>
 <figcaption>다이어그램 3. 고객 계정 공통 기능</figcaption>  
 </figure>
 <br>
 
 <figure style="text-align: center;">
-<img src="https://github.com/user-attachments/assets/dad33270-4691-4491-91f7-a3813e8bf210" width=1000, height=650>
+<img src="https://github.com/user-attachments/assets/dad33270-4691-4491-91f7-a3813e8bf210" width=1000, height=600>
 <figcaption>다이어그램 4. 고객 계정 공통 주식 거래 기능</figcaption> 
 </figure>
 <br>
@@ -91,7 +96,7 @@
 <br>
 
 <figure style="text-align: center;">
-<img src="https://github.com/user-attachments/assets/2ba8a412-62e7-4dcc-95fd-4d327a8efd09" width=1000, height=650>
+<img src="https://github.com/user-attachments/assets/2ba8a412-62e7-4dcc-95fd-4d327a8efd09" width=1000, height=600>
 <figcaption>다이어그램 6. 일반 고객 전용 기능</figcaption>  
 </figure>
 <br>
@@ -113,6 +118,7 @@
 - customer_balance: 개인(일반)고객 계정의 보유 주식 잔고 테이블 (계좌번호, 기업이름, 주식 보유 개수, 평균 매수 단가)
 - company_balance: 기업고객 계정의 보유 주식 잔고 테이블 (계좌번호, 기업이름, 주식 보유 개수, 평균 매수 단가)
 <img src="https://github.com/user-attachments/assets/3582505a-05cb-4a81-b91f-1a1b8946a0db" width=600, height=400>
+___
 <br> <br>
 
 
@@ -157,6 +163,7 @@ npm start
 
 ### AWS Lightsail 배포 과정
 - (채울 예정)
+___
 <br> <br>
 
 ## 프로젝트 활용 방안
