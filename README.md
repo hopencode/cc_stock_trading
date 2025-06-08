@@ -167,8 +167,7 @@ uvicorn app.main:app --reload
 npm start
 ```
 
-## AWS Lightsail 배포 과정
-
+### AWS Lightsail 배포 과정
 본 프로젝트는 안정적이고 확장 가능한 서비스 제공을 위해 AWS Lightsail 클라우드 플랫폼을 활용하여 배포되었습니다. AWS Lightsail은 가상 사설 서버(VPS) 서비스로, 복잡한 클라우드 설정 없이도 웹 애플리케이션을 쉽게 배포할 수 있는 솔루션입니다.
 
 ### 배포 아키텍처
